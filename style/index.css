@@ -1,0 +1,207 @@
+@charset 'UTF-8';
+/*
+ * name: 'index.css';
+ * for: 'GuangRong_IBHelp';
+ * author: 'NearSaint';
+ * time: '2017.1123';
+ */
+
+/*
+*
+*  what
+*
+*/
+
+section.whatsPlan div.content {
+  overflow: hidden;
+}
+
+section.whatsPlan div.content>div {
+  position: relative;
+  width: 100%;
+  max-width: 760px;
+  min-height: 160px;
+  margin: 20px auto;
+}
+
+section.whatsPlan div.content>div>i {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 196px;
+  height: 160px;
+  margin-top: -98px;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+section.whatsPlan div.content>div.times>i {
+  left: 0;
+  background-image: url(../image/index/icon_index_1.png);
+}
+
+section.whatsPlan div.content>div.mountain>i {
+  right: 0;
+  background-image: url(../image/index/icon_index_2.png);
+}
+
+section.whatsPlan div.content>div.rock>i {
+  left: 0;
+  background-image: url(../image/index/icon_index_3.png);
+}
+
+section.whatsPlan div.content>div.bridge>i {
+  right: 0;
+  background-image: url(../image/index/icon_index_4.png);
+}
+
+section.whatsPlan div.content>div>span {
+  font-size: 14px;
+  line-height: 32px;
+  display: block;
+  width: -webkit-calc(100% - 200px);
+  width: -moz-calc(100% - 200px);
+  width: calc(100% - 200px);
+  padding: 40px 20px;
+}
+
+section.whatsPlan div.content>div.times>span {
+  float: right;
+}
+
+section.whatsPlan div.content>div.rock>span {
+  float: right;
+}
+
+@media (max-width: 768px) {
+  section.whatsPlan div.content>div>span {
+    padding: 0 10px;
+  }
+}
+
+/*
+*
+*  who&why
+*
+*/
+
+section.whoNwhy div.contentBox {
+  overflow: hidden;
+  height: 460px;
+}
+
+section.whoNwhy div.contentBox>div {
+  position: absolute;
+  z-index: 2;
+  width: 610px;
+  height: 280px;
+  padding: 20px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  color: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #333;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+section.whoNwhy div.contentBox>div.user_jingji {
+  top: 10px;
+  left: 20px;
+  background-color: #00a0e9;
+  background-image: url(../image/index/bg_whoWhy_jingji.png);
+  background-position: right center;
+}
+
+section.whoNwhy div.contentBox>div.user_daili {
+  z-index: 1;
+  right: 20px;
+  bottom: 50px;
+  background-color: #00e0d5;
+  background-image: url(../image/index/bg_whoWhy_daili.png);
+  background-position: left center;
+}
+
+section.whoNwhy div.contentBox>div:hover {
+  z-index: 3;
+  -webkit-box-shadow: 0 2px 18px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 2px 18px rgba(0, 0, 0, .3);
+  box-shadow: 0 2px 18px rgba(0, 0, 0, .3);
+}
+
+section.whoNwhy div.contentBox>div>h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+section.whoNwhy div.contentBox>div.user_daili>h3 {
+  text-align: right;
+}
+
+section.whoNwhy div.contentBox>div>h5 {
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+section.whoNwhy div.contentBox>div.user_daili>h5 {
+  text-align: right;
+}
+
+section.whoNwhy div.contentBox>div>ul {
+  width: 100%;
+}
+
+section.whoNwhy div.contentBox>div>ul>li {
+  line-height: 24px;
+  position: relative;
+  height: 24px;
+  margin: 5px 0;
+  padding: 0 44px;
+}
+
+section.whoNwhy div.contentBox>div.user_daili>ul>li {
+  text-align: right;
+}
+
+section.whoNwhy div.contentBox>div>ul>li>i {
+  font-style: normal;
+  line-height: 24px;
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  color: #333;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #fff;
+}
+
+section.whoNwhy div.contentBox>div.user_jingji>ul>li>i {
+  left: 0;
+  color: #00a0e9;
+}
+
+section.whoNwhy div.contentBox>div.user_daili>ul>li>i {
+  right: 0;
+  color: #00e0d5;
+}
+
+@media (max-width: 768px) {
+  section.whoNwhy div.contentBox {
+    height: 640px;
+  }
+}

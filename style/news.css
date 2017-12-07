@@ -1,0 +1,127 @@
+@charset 'UTF-8';
+/*
+ * name: 'news.css';
+ * for: 'GuangRong_IBHelp';
+ * author: 'NearSaint';
+ * time: '2017.1123';
+ */
+
+section.newsList.news {
+  padding: 40px 0;
+  background: none;
+}
+
+section.newsList.news .container_news_img {
+  margin-bottom: 40px;
+}
+
+section.newsList.news div.container_news_list ul.list a {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 0 10px 0 144px;
+}
+
+section.newsList.news div.container_news_list ul.list a>b {
+  right: auto;
+  left: 60px;
+}
+
+section.newsList.news .container_mainNews>a {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  white-space: nowrap;
+  color: #333;
+}
+
+section.newsList.news .container_mainNews>a:hover, section.newsList.news .container_mainNews>a.touch {
+  color: #00a0e9;
+}
+
+section.newsList.news .container_mainNews>a>span {
+  font-size: 22px;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+section.newsList.news .container_mainNews>a>i {
+  font-size: 14px;
+  font-style: normal;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  opacity: .6;
+}
+
+@media (max-width: 992px) {}
+
+section.news_content {
+  padding: 40px 0 60px;
+}
+
+section.news_content>div.title {
+  position: relative;
+  padding: 60px 20px 20px;
+}
+
+section.news_content>div.title>h3 {
+  font-size: 26px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+section.news_content>div.title>h6 {
+  font-size: 16px;
+  color: #666;
+}
+
+section.news_content>div.title>a.goBack {
+  font-size: 16px;
+  line-height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  padding: 0 20px;
+  color: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background: #00a0e9;
+}
+
+section.news_content>div.title>a.goBack>span {
+  line-height: 30px;
+  display: inline-block;
+}
+
+section.news_content>div.title>a.goBack:hover, section.news_content>div.title>a.goBack.touch {
+  background: #0061ae;
+}
+
+div.title a.goBack>i {
+  font-size: 24px;
+  line-height: 30px;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+
+section.news_content>div.goBack {
+  margin: 40px auto;
+  text-align: center;
+  border-top: 1px dashed #ccc;
+  border-bottom: 1px dashed #ccc;
+}
+
+section.news_content>div.goBack>a {
+  font-size: 18px;
+  line-height: 62px;
+}

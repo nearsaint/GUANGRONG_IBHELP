@@ -1,0 +1,243 @@
+@charset 'UTF-8';
+/*
+ * name: 'course.css';
+ * for: 'GuangRong_IBHelp';
+ * author: 'NearSaint';
+ * time: '2017.1123';
+ */
+
+section.course {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 40px 0 60px;
+  text-align: center;
+}
+
+section.course>h3.title {
+  font-size: 16px;
+  line-height: 52px;
+  display: inline-block;
+  padding: 0 20px;
+  color: #fff;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background: #0061ae;
+}
+
+section.course>hr.line {
+  display: block;
+  width: 2px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  background: #0061ae;
+}
+
+section.course>ul {
+  width: 100%;
+  padding: 0 20px;
+}
+
+section.course>ul>h5 {
+  font-size: 18px;
+  line-height: 32px;
+  display: inline-block;
+  padding: 0 20px;
+  color: #fff;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background: #00a0e9;
+}
+
+section.course>ul>hr {
+  height: 1px;
+  margin: -16px -20px 14px -20px;
+  border: none;
+  background: #ccc;
+}
+
+section.course>ul>li {
+  position: relative;
+  width: 100%;
+  margin-left: -webkit-calc(-50% + 1px);
+  margin-left: -moz-calc(-50% + 1px);
+  margin-left: calc(-50% + 1px);
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 70%;
+  text-align: right;
+  border-right: 2px solid #0061ae;
+}
+
+section.course>ul>li>i {
+  position: absolute;
+  top: 40px;
+  right: -11px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #00a0e9;
+}
+
+section.course>ul>li>h5.city {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #00a0e9;
+}
+
+section.course>ul>li>h5.time {
+  font-size: 18px;
+  position: absolute;
+  top: 40px;
+  right: -220px;
+  width: 200px;
+  text-align: left;
+  color: #333;
+}
+
+section.course>ul>li>h6 {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+}
+
+section.course>div.toBeContinue {
+  position: relative;
+  width: 100%;
+  margin-bottom: 60px;
+  margin-left: -webkit-calc(-50% + 1px);
+  margin-left: -moz-calc(-50% + 1px);
+  margin-left: calc(-50% + 1px);
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 70%;
+  text-align: right;
+  border-right: 2px solid #0061ae;
+}
+
+section.course>div.toBeContinue>i {
+  position: absolute;
+  top: 20px;
+  right: -16px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #00a0e9;
+}
+
+section.course>div.toBeContinue>h5 {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+section.course>div.toBeContinue>h6 {
+  font-size: 15px;
+  line-height: 30px;
+  position: absolute;
+  top: 20px;
+  right: -220px;
+  width: 200px;
+  text-align: left;
+}
+
+section.course>ul>li:nth-child(2n), section.course>ul>li.right {
+  margin-right: -webkit-calc(-50% + 1px);
+  margin-right: -moz-calc(-50% + 1px);
+  margin-right: calc(-50% + 1px);
+  margin-left: auto;
+  padding-right: 70%;
+  padding-left: 20px;
+  text-align: left;
+  border-right: none;
+  border-left: 2px solid #0061ae;
+}
+
+section.course>ul>li:nth-child(2n)>i, section.course>ul>li.right>i {
+  right: auto;
+  left: -11px;
+}
+
+section.course>ul>li:nth-child(2n)>h5.time, section.course>ul>li.right>h5.time {
+  right: auto;
+  left: -220px;
+  text-align: right;
+}
+
+@media (max-width: 992px) {
+  section.course {
+    padding-left: 20px;
+    text-align: left;
+  }
+  section.course>hr.line {
+    margin-left: 40px;
+  }
+  section.course>ul>li {
+    margin-left: 20px;
+    padding-left: 20px;
+    text-align: left;
+    border-right: none;
+    border-left: 2px solid #0061ae;
+  }
+  section.course>ul>li>i {
+    right: auto;
+    left: -11px;
+  }
+  section.course>ul>li>h5.time {
+    font-size: 14px;
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    margin-bottom: 20px;
+  }
+  section.course>ul>li:nth-child(2n), section.course>ul>li.right {
+    margin-right: auto;
+    margin-left: 20px;
+    padding-right: 0;
+    padding-left: 20px;
+    text-align: left;
+    border-right: none;
+    border-left: 2px solid #0061ae;
+  }
+  section.course>ul>li:nth-child(2n)>i, section.course>ul>li.right>i {
+    right: auto;
+    left: -11px;
+  }
+  section.course>ul>li:nth-child(2n)>h5.time, section.course>ul>li.right>h5.time {
+    right: auto;
+    left: auto;
+    text-align: left;
+  }
+  section.course>div.toBeContinue {
+    position: relative;
+    width: 100%;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-left: 20px;
+    text-align: left;
+    border-right: none;
+    border-left: 2px solid #0061ae;
+  }
+  section.course>div.toBeContinue>i {
+    right: auto;
+    left: -16px;
+  }
+  section.course>div.toBeContinue>h6 {
+    top: 40px;
+    right: auto;
+    left: -16;
+  }
+}

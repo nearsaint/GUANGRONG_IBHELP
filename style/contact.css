@@ -1,0 +1,95 @@
+@charset 'UTF-8';
+/*
+ * name: 'contact.css';
+ * for: 'GuangRong_IBHelp';
+ * author: 'NearSaint';
+ * time: '2017.1123';
+ */
+
+section.contactUs {
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+section.contactUs div.row>div.logo_container {
+  position: relative;
+  height: 100%;
+  min-height: 410px;
+}
+
+section.contactUs div.row div.logo_bg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1000px;
+  height: 100%;
+  margin-left: -500px;
+  background-image: url(../image/logo/logo_bg@1x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+section.contactUs div.row div.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 196px;
+  height: 162px;
+  margin: -81px 0 0 -98px;
+  background-image: url(../image/logo/logo_h@1x.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+section.contactUs div.row ul {
+  padding: 40px 20px 20px;
+}
+
+section.contactUs div.row ul>li {
+  font-size: 16px;
+  line-height: 42px;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 0 20px 0 58px;
+  color: #fff;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #00a0e9;
+}
+
+section.contactUs div.row ul>li>i {
+  font-size: 18px;
+  line-height: 38px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: block;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  color: #00a0e9;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background: #fff;
+}
+
+@media (max-width: 992px) {
+  section.contactUs div.row ul {
+    padding: 0 0 40px;
+  }
+  section.contactUs div.row ul>li {
+    font-size: 13px;
+    padding: 0 10px 0 48px;
+  }
+}

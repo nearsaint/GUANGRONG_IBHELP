@@ -1,0 +1,151 @@
+@charset 'UTF-8';
+/*
+ * name: 'base.css';
+ * for: 'GuangRong_IBHelp';
+ * author: 'NearSaint';
+ * time: '2017.1123';
+ */
+
+html, body {
+  font-family: Microsoft YaHei, '微软雅黑', Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+body.overflowHiden {
+  position: fixed;
+  overflow: hidden;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: none;
+  outline: none;
+}
+
+a {
+  font-size: inherit;
+  font-weight: 400;
+  cursor: pointer;
+  -webkit-transition: all ease .3s;
+  -moz-transition: all ease .3s;
+  -o-transition: all ease .3s;
+  transition: all ease .3s;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+p {
+  font-size: inherit;
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+ul, li, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.clr {
+  clear: both;
+}
+
+.clear:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: '.';
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.hiden, .hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.float_left, .floatLeft {
+  float: left;
+}
+
+.float_right, .floatRight {
+  float: right;
+}
